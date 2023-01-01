@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.find {
+    margin-top: 80px;
+
+    h5 {
+        font-weight: 300;
+        color: #555;
+    }
+
+    h2 {
+        font-weight: 800;
+        font-size: 35px;
+    }
+}
+
+.visit {
+    width: 350px;
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding: 50px 0px;
+    color: white;
+    margin-top: 30px;
+
+    i {
+        background-color: rgb(255, 182, 0);
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 20px;
+    }
+
+    h3 {
+        margin-top: 30px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+}
+
+
+// <!-- session 2// -->
+
+.map {
+    margin-top: 50px;
+    width: 100%;
+}
+
+// <!-- session 3// -->
+
+input {
+    border: none;
+
+    &:focus {
+        border: 1px solid #f5634b;
+        outline: none;
+    }
+}
+
+
+
+
+.yellow {
+
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px;
+
+    &:hover {
+        background-color: black;
+        color: white;
+
+    }
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.head {
+  max-width: 1100px;
+}
+.head .head-top {
+  font-weight: 700;
+}
+.head .heading h1,
+.head .heading h2,
+.head .heading h3,
+.head .heading h4,
+.head .heading h5,
+.head .heading h6 {
+  font-weight: 700;
+}
+.head .heading p {
+  color: #555;
+  max-width: 550px;
+}
+.head .paragraph p {
+  max-width: 550px;
+}
+.head .paragraph .mark {
+  background-color: rgb(252, 248, 227);
+}
+.head .paragraph .text-sucess {
+  color: green;
+}
+.head .block {
+  background-color: rgb(249, 249, 249);
+  padding: 15px;
+  margin: 20px 0;
+  background: #f9f9f9;
+  position: relative;
+  border-right: 3px solid #ffb600;
+  padding-left: 40px;
+}
+.head .block p {
+  max-width: 550px;
+  font-weight: initial;
+}
+.head .blocks {
+  background-color: rgb(249, 249, 249);
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  position: relative;
+  border-top: 3px solid #ffb600;
+  border-right: 3px solid #ffb600;
+}
+.head .blocks p {
+  text-align: center;
+  max-width: 600px;
+}
+.head .blocked {
+  background-color: rgb(249, 249, 249);
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  position: relative;
+  border-left: 3px solid #ffb600;
+}
+.head .blocked p {
+  text-align: right;
+  max-width: 650px;
+}
+.head .blocked .some {
+  text-align: end;
+}/*# sourceMappingURL=features.css.map */

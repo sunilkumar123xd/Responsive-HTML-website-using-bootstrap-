@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.about {
+    background-image: url('../img/banner1.jpg');
+    min-height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .abou {
+        color: white;
+        margin-top: 100px;
+
+        h1 {
+            font-weight: 800;
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 12px;
+            font-weight: 800;
+
+        }
+    }
+}
+
+// <!-- session 2 -->
+
+.side-crow {
+    max-width: 900px;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    p {
+        color: #555;
+        margin-top: 15px;
+    }
+
+    .baquate {
+        background-color: rgb(249, 249, 249);
+        padding: 20px;
+        border-left: 3px solid rgb(255, 182, 0);
+        margin-top: 10px;
+
+
+        p {
+            color: #555;
+            max-width: 610px;
+            font-size: 14px;
+        }
+    }
+
+    .carousel-item img {
+        height: 300px;
+        // min-height: 200px;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+// <!-- session 4 -->
+
+.quli {
+
+
+    h2 {
+        font-weight: 700;
+        font-size: 40px;
+
+    }
+
+    h4 {
+        color: #999;
+        font-weight: 100;
+        font-size: 20px;
+
+    }
+
+    .profesh {
+        position: relative;
+
+
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.7);
+
+            height: 0px;
+            width: 100%;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            z-index: 0;
+            transition: 0.3s;
+
+        }
+
+        &:hover::after {
+            height: 100%;
+        }
+
+
+        &:hover .text-hover {
+            display: block;
+            z-index: 1;
+            color: white;
+        }
+
+        .text-hover {
+            position: absolute;
+            top: 20%;
+            display: none;
+            // text-align: center;
+            max-width: 250px;
+            text-align: left;
+            padding: 0px 20px;
+
+            i {
+                margin: 10px;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgb(255, 182, 0);
+
+                }
+            }
+
+
+
+            h5 {
+                color: rgb(255, 182, 0);
+                text-transform: uppercase;
+            }
+
+            h6 {
+                text-transform: capitalize;
+            }
+
+
+
+        }
+
+
+    }
+
+
+
+
+}
